@@ -3,9 +3,15 @@
     "description": "Handle specific data packets (virion for PMMP API 4.0.0)",
     "type": "library",
     "license": "GPL-3.0",
-    "require": {
-        "pocketmine/pocketmine-mp": "^5.0.0"
+    "require-dev": {
+        "nethergamesmc/pocketmine-mp": "dev-stable"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:BlockBrawn/PocketMine-MP.git"
+        }
+    ],
     "autoload": {
         "classmap": ["src"]
     },
