@@ -7,6 +7,12 @@
     "require-dev": {
         "nethergamesmc/pocketmine-mp": "dev-stable"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:NetherGamesMC/PocketMine-MP.git"
+        }
+    ],
     "autoload": {
         "classmap": ["src"]
     },
