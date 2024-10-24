@@ -5,7 +5,7 @@
     "license": "GPL-3.0",
     "minimum-stability": "dev",
     "require-dev": {
-        "blockbrawn/pocketmine-mp": "dev-stable"
+        "nethergamesmc/pocketmine-mp": "dev-stable"
     },
     "autoload": {
         "classmap": ["src"]
