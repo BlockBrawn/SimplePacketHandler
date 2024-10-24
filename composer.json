@@ -1,17 +1,12 @@
 {
-    "name": "muqsit/simple-packet-handler",
+    "name": "blockbrawn/simple-packet-handler",
     "description": "Handle specific data packets (virion for PMMP API 4.0.0)",
     "type": "library",
     "license": "GPL-3.0",
+    "minimum-stability": "dev",
     "require-dev": {
-        "nethergamesmc/pocketmine-mp": "dev-stable"
+        "blockbrawn/pocketmine-mp": "dev-stable"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:BlockBrawn/PocketMine-MP.git"
-        }
-    ],
     "autoload": {
         "classmap": ["src"]
     },
